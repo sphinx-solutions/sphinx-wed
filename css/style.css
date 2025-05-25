@@ -215,9 +215,10 @@ h6 {
   color: #fff;
 }
 
+/* Black-ish theme for Get Started */
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #1c1c1c; /* dark gray/black */
+  border: 2px solid #1c1c1c;
   color: #fff;
 }
 
@@ -227,15 +228,19 @@ h6 {
   color: #fff;
 }
 
+/* Black-ish theme for Services */
 #intro .intro-info .btn-services {
   border: 2px solid #fff;
+  background: none;
+  color: #fff;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #1c1c1c;
+  border-color: #1c1c1c;
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -264,7 +269,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #1a1a1a; /* dark charcoal, elegant and readable */
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -272,12 +277,14 @@ h6 {
   font-weight: 500;
 }
 
+
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #5a5a5a; /* lighter than #3a3a3a, still elegant */
   text-decoration: none;
 }
+
 
 .main-nav .drop-down ul {
   display: block;
@@ -307,14 +314,15 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #004289;
+  color: #2a2a2a; /* dark charcoal */
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #007bff;
+  color: #5a5a5a; /* lighter charcoal for hover/active */
 }
+
 
 .main-nav .drop-down > a:after {
   content: "\f107";
@@ -375,9 +383,10 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color: #7a7a7a; /* subtle lighter gray hover */
   text-decoration: none;
 }
+
 
 .mobile-nav .drop-down > a:after {
   content: "\f078";
@@ -421,8 +430,9 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #2a2a2a; /* dark charcoal */
 }
+
 
 .mobile-nav-overly {
   width: 100%;
@@ -539,18 +549,24 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #2a2a2a; /* dark charcoal */
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #2a2a2a; /* dark charcoal */
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #2a2a2a; /* dark charcoal background on hover */
+  border-color: #2a2a2a;
 }
+
+#about .about-container .icon-box:hover .icon i {
+  color: #fff; /* white icon on hover for contrast */
+}
+
 
 #about .about-container .icon-box:hover .icon i {
   color: #fff;
@@ -630,8 +646,9 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #5a5a5a; /* subtle lighter charcoal on hover */
 }
+
 
 #services .description {
   font-size: 14px;
@@ -642,8 +659,9 @@ h6 {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #1a1a1a; /* deep charcoal dark background */
 }
+
 
 #why-us .section-header h3,
 #why-us .section-header p {
@@ -651,8 +669,8 @@ h6 {
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #2a2a2a;        /* dark charcoal */
+  border-color: #2a2a2a;     /* matching border */
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -663,8 +681,8 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #1a1a1a;       /* slightly darker charcoal on hover */
+  border-color: #1a1a1a;
 }
 
 #why-us .card i {
@@ -688,8 +706,9 @@ h6 {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: 2px solid #2a2a2a; /* dark charcoal border */
 }
+
 
 #why-us .card .readmore:hover {
   border-bottom: #fff solid 2px;
@@ -729,7 +748,6 @@ h6 {
   list-style: none;
   text-align: center;
 }
-
 #portfolio #portfolio-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
@@ -737,19 +755,20 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #2a2a2a; /* dark charcoal text */
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: #f0f0f0; /* very light gray background */
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
-  color: #fff;
+  background: #2a2a2a; /* dark charcoal background */
+  color: #fff;        /* white text on active/hover */
 }
+
 
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -814,8 +833,9 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: #5a5a5a; /* lighter charcoal for hover */
 }
+
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
@@ -833,7 +853,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #2a2a2a; /* dark charcoal background */
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -847,8 +867,9 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
+  background: #5a5a5a; /* lighter charcoal for hover */
 }
+
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
@@ -918,8 +939,9 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color: #2a2a2a; /* dark charcoal */
 }
+
 
 /* Team Section
 --------------------------------*/
@@ -1000,8 +1022,9 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #007bff;
+  color: #5a5a5a; /* lighter charcoal hover color */
 }
+
 
 #team .member .social i {
   font-size: 18px;
@@ -1074,8 +1097,9 @@ h6 {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #2a2a2a; /* dark charcoal */
 }
+
 
 #contact .contact-about p {
   font-size: 14px;
@@ -1091,8 +1115,8 @@ h6 {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #fff;
-  color: #007bff;
+  background: #fff;            /* keep white for icon background */
+  color: #2a2a2a;             /* dark charcoal for icon color */
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1101,12 +1125,13 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid #2a2a2a; /* dark charcoal border */
 }
 
+
 #contact .social-links a:hover {
-  background: #007bff;
-  color: #fff;
+  background: #2a2a2a; /* dark charcoal background */
+  color: #fff;        /* white icon color */
 }
 
 #contact .info {
@@ -1115,10 +1140,11 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #2a2a2a; /* dark charcoal */
   float: left;
   line-height: 1;
 }
+
 
 #contact .info p {
   padding: 0 0 10px 36px;
@@ -1127,14 +1153,15 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #2a2a2a; /* dark charcoal */
+  border: 1px solid #2a2a2a; /* dark charcoal border */
   display: none;
   text-align: center;
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
 }
+
 
 #contact .form #errormessage {
   color: red;
@@ -1168,7 +1195,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #2a2a2a;       /* dark charcoal */
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1177,9 +1204,10 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #1a1a1a;       /* darker charcoal on hover */
   cursor: pointer;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1224,7 +1252,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #2a2a2a;    /* dark charcoal background */
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1237,9 +1265,10 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #1a1a1a;    /* darker charcoal on hover */
   color: #fff;
 }
+
 
 #footer .footer-top h4 {
   font-size: 14px;
@@ -1295,7 +1324,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #2a2a2a;  /* dark charcoal */
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1306,8 +1335,9 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: #1a1a1a;  /* darker charcoal on hover */
 }
+
 
 #footer .copyright {
   text-align: center;
